@@ -23,6 +23,7 @@ func Connect() (*gorm.DB, error) {
 		&models.BonSortie{},
 		&models.Materiaux{},
 		&models.BonEntree{},
+		&models.User{},
 	)
 
 	return connection, nil
